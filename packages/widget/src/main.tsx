@@ -2,8 +2,6 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import TourComponent from './TourComponent';
 import { initializeWidget } from './loading';
-
-
 (window as any).renderTourUI = function(tourConfig: any) {
   
     const rootElement = document.createElement('div');
